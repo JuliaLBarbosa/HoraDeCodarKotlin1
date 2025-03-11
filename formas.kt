@@ -13,13 +13,13 @@ fun main() {
     var raio:Double
 
     println("\n1)Qual figura voce deseja calcular?: " +
-            "\n1.retangulo " +
+            "\n1.retângulo " +
             "\n2.quadrado " +
             "\n3.losangulo " +
-            "\n4.trapezio " +
+            "\n4.trapézio " +
             "\n5.paralelogramo " +
-            "\n6.triangulo " +
-            "\n7.circulo \n ")
+            "\n6.triângulo " +
+            "\n7.círculo \n ")
 
     when(readln()!!.toInt()){
         1-> { println("Informe o valor da base: ")
